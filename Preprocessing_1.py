@@ -1,8 +1,7 @@
-# installations: docx2txt, textract, pdf.miner.six
+# installations: docx2txt, pdf.miner.six
 # author: Terekhina Maria
 
 import docx2txt
-import textract
 import io
 import re
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
@@ -82,3 +81,4 @@ def document_to_text(path):
 
 if __name__ == '__main__':
     print(document_to_text(input('Введите полный путь к файлу: ')))
+
